@@ -35,3 +35,34 @@ Folien: TODO
 ## Einführung in React
 
 #### [Nils Hartmann](https://nilshartmann.net) / [@nilshartmann](http://twitter.com/nilshartmann) / [nils@nilshartmann.net](mailto:nils@nilshartmann.net)
+
+---
+
+# Teil 0
+
+## React-Einführung und Build-Prozess
+
+---
+
+## Kommunikation zwischen Komponenten
+
+hallo und huhu
+
+## ![](images/component-communication.png)
+
+---
+
+## Äußere Architektur
+
+Problem:
+
+**Es ist alles sehr kompliziert!!!!**
+
+<!-- .element: class="fragment" -->
+
+- Mehrere Teams
+- und vieles andere
+
+![](images/aeussere-architektur.png)
+
+<!-- .element: class="fragment" style="height: 200px"  -->

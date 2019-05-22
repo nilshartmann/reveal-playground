@@ -1,0 +1,12 @@
+{
+	"name": "reveal-playground",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"static": "rm -rf _static/ && yarn reveal-md ./ --static"
+	},
+	"dependencies": {
+		"reveal-md": "^3.0.4"
+	}
+}

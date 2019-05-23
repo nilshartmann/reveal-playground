@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "r": "reveal-md demo.md -w --scripts presentation/jquery-2.2.4.js,presentation/react-training.js --css presentation/react-training.css",
-    "static": "rm -rf static/ && yarn reveal-md ./ --static static --scripts presentation/jquery-2.2.4.js,presentation/react-training.js --css presentation/react-training.css --static-dirs=presentation/fonts"
+    "r": "reveal-md ./.reveal/demo.md -w --scripts ./.reveal/src/jquery-2.2.4.js,./.reveal/src/react-training.js --css ./.reveal/src/fonts/google-fonts.css,./.reveal/src/react-training.css",
+    "static": "rm -rf slides/ && yarn reveal-md ./.reveal/ --static slides --scripts ./.reveal/src/jquery-2.2.4.js,./.reveal/src/react-training.js --css ./.reveal/src/react-training.css --static-dirs=./.reveal/src/fonts"
   },
   "dependencies": {
     "reveal-md": "^3.0.4"
